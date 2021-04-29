@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring Boot 2.0 Essential Training.iml" filepath="$PROJECT_DIR$/.idea/Spring Boot 2.0 Essential Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/booting-web/booting-web.iml" filepath="$PROJECT_DIR$/booting-web/booting-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/room-clr/room-clr.iml" filepath="$PROJECT_DIR$/room-clr/room-clr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/room-web-app/room-web-app.iml" filepath="$PROJECT_DIR$/room-web-app/room-web-app.iml" />
+    </modules>
+  </component>
+</project>
