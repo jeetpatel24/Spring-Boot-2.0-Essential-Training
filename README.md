@@ -1,6 +1,6 @@
 # Connectivity to Embedded Database
 ## Clone this application and run in any IDE (say Intellij)
-### open web browser and hit http://localhost:8080/h2-console
+### open web browser and hit `http://localhost:8080/h2-console`
 #### now you can see your output here
 
 
