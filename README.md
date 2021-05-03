@@ -3,7 +3,7 @@
 ### open web browser and hit `http://localhost:8080/h2-console` to see your output
 
 
-#### what we did in this (step by step)
+#### what we did in this application(lets see step by step)
 #### 1. create Models for Staff and Room
 #### 2. create Controllers for Staff and Room
 #### 3. crerate Services for Staff and Room
