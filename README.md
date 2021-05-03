@@ -10,7 +10,7 @@
 #### 2. create Controllers for Staff and Room
 #### 3. crerate Services for Staff and Room
 #### 4. create data.sql and schema.sql in resources
-#### 5. Add the following in application.properties
+#### 5. add the following in application.properties
 ##### logging.level.org.springframework.jdbc.datasource.init.ScriptUtils=debug
 ###### Because of this property we can see output in the console after running the application
 ##### spring.h2.console.enabled=true
@@ -25,10 +25,10 @@
 
 
 #### what we did in this application(lets see step by step)
-#### 1. Convert Room to Entity by adding `@Entity` adding all the columns
-#### 2. Create a new package named `data` and create a interface called `RoomPrepository` which extends `JpaRepository<Room, Long>`
-#### 3. Now make changes to RoomService (Connect it to RoomRepository and fetch data using `RoomRepository.findAll()` mehod)
-#### 4. Add this to application.properties
+#### 1. convert Room to Entity by adding `@Entity` adding all the columns
+#### 2. create a new package named `data` and create a interface called `RoomPrepository` which extends `JpaRepository<Room, Long>`
+#### 3. now make changes to RoomService (Connect it to RoomRepository and fetch data using `RoomRepository.findAll()` mehod)
+#### 4. add this to application.properties
 ##### spring.jpa.hibernate.ddl-auto=none
 ###### Because we have an embedded database that's already been populated with a schema and data, we don't want hibernate to create that for us.
 
