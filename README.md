@@ -38,10 +38,11 @@
 ### username and password for login console are `user` and  `password`
 
 #### what we did in this application(lets see step by step)
-#### 1. create a new package config -> new class `SecurityConfig`
-#### 2. create `login.html` in resources/templates
-#### 3. create `AutheticationController` in controllers
-
-
-
-
+##### 1. Add the dependency to pom
+`<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+</dependency>`
+#### 2. create a new package config -> new class `SecurityConfig`
+#### 3. create `login.html` in resources/templates
+#### 4. create `AutheticationController` in controllers
