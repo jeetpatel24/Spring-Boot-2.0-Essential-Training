@@ -23,7 +23,6 @@
 ## Clone this application and run in any IDE (say Intellij)
 ### open web browser and hit `http://localhost:8080/rooms` to see your output
 
-
 #### what we did in this application(lets see step by step)
 #### 1. convert Room to Entity by adding `@Entity` adding all the columns
 #### 2. create a new package named `data` and create a interface called `RoomPrepository` which extends `JpaRepository<Room, Long>`
@@ -31,5 +30,18 @@
 #### 4. add this to application.properties
 ##### spring.jpa.hibernate.ddl-auto=none
 ###### Because we have an embedded database that's already been populated with a schema and data, we don't want hibernate to create that for us.
+
+
+# IV Implementing Spring Security(Basics)
+## Clone this application and run in any IDE (say Intellij)
+### open web browser and hit `http://localhost:8080/rooms` to see login console
+### username and password for login console are `user` and  `password`
+
+#### what we did in this application(lets see step by step)
+#### 1. create a new package config -> new class `SecurityConfig`
+#### 2. create `login.html` in resources/templates
+#### 3. create `AutheticationController` in controllers
+
+
 
 
