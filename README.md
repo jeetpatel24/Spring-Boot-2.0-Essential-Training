@@ -1,4 +1,20 @@
+
+*************************
+### Three modules are there in this project
+#### 1. Containerizing Spring Boot Application
+##### `booting-web`
+
+#### 2. Implementing Command Line Runner
+##### `room-clr`
+##### `FizzBuzz`
+
+#### 1. Containering Spring Boot Application
+##### `Room-Web-app`
+##### `complete room-web-app is described below`
+*************************
 # I First Commit
+## Clone this application and run in any IDE (say Intellij)
+### it included the initial project after its setup
 
 # II Connectivity to Embedded Database
 ## Clone this application and run in any IDE (say Intellij)
